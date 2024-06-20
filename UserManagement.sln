@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "Services\UserService\UserService.csproj", "{7819D850-6AAC-4059-905D-9555A51CB080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC635EC2-78AB-4E8F-85BA-2F3B1D69A2EC}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{3874F216-B0D0-479E-9419-6B550CEEA67D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7819D850-6AAC-4059-905D-9555A51CB080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7819D850-6AAC-4059-905D-9555A51CB080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7819D850-6AAC-4059-905D-9555A51CB080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7819D850-6AAC-4059-905D-9555A51CB080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3874F216-B0D0-479E-9419-6B550CEEA67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3874F216-B0D0-479E-9419-6B550CEEA67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3874F216-B0D0-479E-9419-6B550CEEA67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3874F216-B0D0-479E-9419-6B550CEEA67D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E943E7B7-4A44-405A-8671-DE36C255BAD0}
+	EndGlobalSection
+EndGlobal
